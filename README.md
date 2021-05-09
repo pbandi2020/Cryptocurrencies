@@ -21,3 +21,27 @@ The preprocessed and transformed output used for analysis hs 532 rows of tradble
 
 ### Elbow Curve:
 
+![ElbowCurve](/Resources/Elbow_Curve.PNG)
+
+We produced the elbow curve below using the K-Means method iterating on k values from 1 to 10.
+The best k value appears to be 4 so we would conclude on an output of 4 clusters to categorize the crytocurrencies.
+
+### 3D Scattered Plot with Cluster:
+
+![3dPlot](/Resources/3D_ScatteredChart.PNG)
+
+This 3-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to three principal components and the visualization layer is built using the 3 principal components
+
+### Visualize the distinct groups that correspond to the 3 principal components 
+
+![DistinctGroups](/Resources/hvPlot_Scattered.PNG)
+
+The Scatter plots show the distribution and the four clusters of cryptocurrencies.
+
+### Tradable Cryptocurriencies Table
+
+Most of the cryptocurrencies are part of class #0 and #1.
+
+![TradableTable](/Resources/Clustered_Table.PNG)
+
+
